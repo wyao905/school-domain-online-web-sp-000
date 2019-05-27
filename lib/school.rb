@@ -23,6 +23,6 @@ class School
     roster.each do |grade, students|
       sorted[grade] = roster[grade].sort
     end
-    # return sorted.sort
+    return sorted.sort
   end
 end
